@@ -8,6 +8,9 @@ import sys
 import logging
 from pathlib import Path
 
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
 # Add the project root to the path
 sys.path.append(str(Path(__file__).parent))
 
